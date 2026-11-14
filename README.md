@@ -1,4 +1,4 @@
-# AquaTrio — Fish Tank Remote Control
+# AquaTrio — Fish Tank Remote Control 🐟
 
 AquaTrio is a responsive React dashboard for monitoring and controlling a smart aquarium over **MQTT over secure WebSockets (WSS)** or a built-in simulated mock transport.
 
