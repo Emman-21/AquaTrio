@@ -13,7 +13,7 @@ npm run lint      # Syntax checks + Node unit tests
 
 ---
 
-## MQTT Broker Setup & Testing Guide
+## ⚙️ MQTT Broker Setup & Testing Guide
 
 ### 1. Create a Free EMQX Cloud
 
