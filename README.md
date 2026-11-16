@@ -15,16 +15,11 @@ npm run lint      # Syntax checks + Node unit tests
 
 ## MQTT Broker Setup & Testing Guide
 
-### 1. Create a Free EMQX Cloud or HiveMQ Cloud Cluster
+### 1. Create a Free EMQX Cloud
 
-**Option A — EMQX Cloud (Serverless)**
 1. Sign up at [EMQX Cloud](https://www.emqx.com/en/cloud) and create a **Serverless** deployment.
 2. Open **Overview** to copy the **WSS** endpoint (for example: `wss://<your-cluster>.emqxsl.com:8084/mqtt`).
 3. Ensure TLS/SSL WebSockets on port `8084` (`/mqtt` path) are enabled (enabled by default on Serverless clusters).
-
-**Option B — HiveMQ Cloud (Serverless)**
-1. Sign up at [HiveMQ Cloud](https://www.hivemq.com/mqtt-cloud-broker/) and create a free **Serverless** cluster.
-2. Copy the cluster hostname and use the WebSocket TLS endpoint: `wss://<your-cluster>.s1.eu.hivemq.cloud:8884/mqtt`.
 
 ---
 
