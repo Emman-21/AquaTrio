@@ -2,7 +2,7 @@
 
 AquaTrio is a responsive React dashboard for monitoring and controlling a smart aquarium over **MQTT over secure WebSockets (WSS)** or a built-in simulated mock transport.
 
-## Getting Started
+## 🐠 Getting Started
 
 ```bash
 npm install
